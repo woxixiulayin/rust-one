@@ -1,5 +1,9 @@
 use std::fs;
-
+enum Gender {
+  Unspecific = 0,
+  Female = 1,
+  Male = 2,
+}
 fn main() {
   let url = "https://www.rust-lang.org/";
   let output = "rust.md";
