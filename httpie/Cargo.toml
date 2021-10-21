@@ -12,4 +12,4 @@ colored = "2"
 jsonxf = "1.1" # JSON pretty print格式化
 mime = "0.3" # 处理mime类型
 reqwest = { version = "0.11", features = ["json"] } # http客户端
-tokio = { version = "1", feature = ["full"] } # 异步处理库
+tokio = { version = "1", features = ["full"] } # 异步处理库
